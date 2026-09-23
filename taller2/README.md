@@ -1,0 +1,22 @@
+# Taller 2: De 16 canales a la figura
+**Curso:** De la neurona a la figura: Análisis neuronal en insectos asistido por IA  
+**Integrantes:** [Nombre Estudiante 1] / [Nombre Estudiante 2]  
+
+---
+
+## 📌 Descripción del Proyecto
+
+Este proyecto implementa un *pipeline* completo de procesado y análisis de señales electrofisiológicas extracelulares multicanal registradas con una sonda lineal de 16 electrodos en insectos. 
+
+El flujo de trabajo abarca desde la filtración de la señal cruda hasta la clasificación automática y curación manual de unidades neuronales (*spike sorting*), finalizando en la caracterización estadística de las respuestas evocadas por estímulos experimentales.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```text
+taller2/
+│
+├── Taller2_ESTUDIANTE.ipynb    # Notebook principal con la ejecución secuencial del pipeline
+├── README.md                   # Descripción del taller y guía de ejecución
+└── verificacion.py             # Módulo de validación de métricas contra la verdad oculta
